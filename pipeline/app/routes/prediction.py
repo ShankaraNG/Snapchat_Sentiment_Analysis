@@ -17,6 +17,14 @@ class TextItem(BaseModel):
 class TextRequest(BaseModel):
     texts: List[TextItem]
 
+@predict_router.get('/')
+def root():
+    return {'message': 'Welcome to Snapchat Review Analysis API'}
+
+@predict_router.get('/health')
+def health():
+    return {'status': 'healthy'}
+
 @predict_router.post('/predict')
 def predict_route(request: TextRequest):
     try:
