@@ -1,5 +1,5 @@
 language:
-  multilingual: True
+  multilingual: False
 
 logging:
   path: logs/

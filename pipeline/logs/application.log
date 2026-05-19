@@ -48,3 +48,48 @@
 2026-05-18 18:51:27,054 | LDAService | INFO | Returning the LDA topic prediction numbers
 2026-05-18 18:51:30,676 | PredictionRoute | INFO | Constructing response
 2026-05-18 18:51:30,676 | PredictionRoute | INFO | Prediction completed successfully
+2026-05-19 04:34:02,517 | SentimentService | INFO | Loading sentiment model
+2026-05-19 04:34:02,779 | SentimentService | INFO | Sentiment model loaded successfully
+2026-05-19 04:34:02,780 | LDAService | INFO | Loading LDA model
+2026-05-19 04:34:03,144 | TopicLoadingService | INFO | Loading topic mapping from JSON
+2026-05-19 04:34:03,174 | TopicLoadingService | INFO | Successfully loaded topic mappings!
+2026-05-19 04:35:08,841 | PredictionRoute | INFO | Received prediction request
+2026-05-19 04:35:08,841 | TopicLoadingService | INFO | Loading topic mapping from JSON
+2026-05-19 04:35:08,845 | TopicLoadingService | INFO | Successfully loaded topic mappings!
+2026-05-19 04:35:08,845 | PredictionRoute | INFO | Predicting sentiment and topic for 5 texts
+2026-05-19 04:35:11,234 | PredictionRoute | INFO | Predicting sentiment
+2026-05-19 04:35:11,234 | SentimentService | INFO | Predicting sentiment
+2026-05-19 04:35:11,234 | SentimentService | INFO | Loading sentiment model
+2026-05-19 04:35:11,234 | SentimentService | INFO | Sentiment model loaded successfully
+2026-05-19 04:35:11,234 | SentimentService | INFO | Returning the sentiment prediction
+2026-05-19 04:35:14,784 | PredictionRoute | INFO | Predicting topics
+2026-05-19 04:35:14,785 | LDAService | INFO | Predicting LDA topics
+2026-05-19 04:35:14,785 | LDAService | INFO | Loading LDA model
+2026-05-19 04:35:14,785 | LDAService | INFO | Returning the LDA topic prediction numbers
+2026-05-19 04:35:17,307 | PredictionRoute | INFO | Constructing response
+2026-05-19 04:35:17,307 | PredictionRoute | INFO | Prediction completed successfully
+2026-05-19 04:53:08,406 | SentimentService | INFO | Loading sentiment model
+2026-05-19 04:53:08,410 | SentimentService | INFO | Sentiment model loaded successfully
+2026-05-19 04:53:08,411 | LDAService | INFO | Loading LDA model
+2026-05-19 04:53:08,513 | TopicLoadingService | INFO | Loading topic mapping from JSON
+2026-05-19 04:53:08,516 | TopicLoadingService | INFO | Successfully loaded topic mappings!
+2026-05-19 04:56:38,899 | SentimentService | INFO | Loading sentiment model
+2026-05-19 04:56:38,908 | SentimentService | INFO | Sentiment model loaded successfully
+2026-05-19 04:56:38,909 | LDAService | INFO | Loading LDA model
+2026-05-19 04:56:39,227 | TopicLoadingService | INFO | Loading topic mapping from JSON
+2026-05-19 04:56:39,237 | TopicLoadingService | INFO | Successfully loaded topic mappings!
+2026-05-19 04:58:07,115 | PredictionRoute | INFO | Received prediction request
+2026-05-19 04:58:07,115 | TopicLoadingService | INFO | Loading topic mapping from JSON
+2026-05-19 04:58:07,127 | TopicLoadingService | INFO | Successfully loaded topic mappings!
+2026-05-19 04:58:07,127 | PredictionRoute | INFO | Predicting sentiment and topic for 5 texts
+2026-05-19 04:58:10,373 | PredictionRoute | INFO | Predicting sentiment
+2026-05-19 04:58:10,373 | SentimentService | INFO | Predicting sentiment
+2026-05-19 04:58:10,373 | SentimentService | INFO | Loading sentiment model
+2026-05-19 04:58:10,373 | SentimentService | INFO | Sentiment model loaded successfully
+2026-05-19 04:58:10,373 | SentimentService | INFO | Returning the sentiment prediction
+2026-05-19 04:58:17,310 | PredictionRoute | INFO | Predicting topics
+2026-05-19 04:58:17,311 | LDAService | INFO | Predicting LDA topics
+2026-05-19 04:58:17,311 | LDAService | INFO | Loading LDA model
+2026-05-19 04:58:17,311 | LDAService | INFO | Returning the LDA topic prediction numbers
+2026-05-19 04:58:31,942 | PredictionRoute | INFO | Constructing response
+2026-05-19 04:58:31,950 | PredictionRoute | INFO | Prediction completed successfully
