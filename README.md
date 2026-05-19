@@ -198,35 +198,6 @@ Accepts a list of review texts and returns sentiment and topic predictions for e
 }
 ```
 
-**Response:**
-```json
-{
-    "predictions": [
-        {
-            "id": "review_001",
-            "text": "The app keeps crashing after the update",
-            "sentiment": "Negative",
-            "topic_number": 3,
-            "topic_label": "Update & Crash Issues"
-        },
-        {
-            "id": "review_002",
-            "text": "Love the new filters on this app",
-            "sentiment": "Positive",
-            "topic_number": 7,
-            "topic_label": "Filters & Streaks"
-        },
-        {
-            "id": "review_003",
-            "text": "Cannot login to my account, keeps saying wrong password",
-            "sentiment": "Negative",
-            "topic_number": 1,
-            "topic_label": "Login & Account Access Issues"
-        }
-    ]
-}
-```
-
 The `id` field is optional — requests without IDs are also accepted.
 
 ---
