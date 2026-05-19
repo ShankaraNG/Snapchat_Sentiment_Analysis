@@ -4,6 +4,18 @@ A machine learning pipeline that analyses Snapchat app reviews to predict sentim
 
 ---
 
+## Deployment
+
+The Pipeline has been deployed in the Hugging face Platform with the below mentioned end point
+
+https://shankarang-sentiment-topic-model.hf.space/ => Root End Point
+
+https://shankarang-sentiment-topic-model.hf.space/health => Health End point
+
+https://shankarang-sentiment-topic-model.hf.space/predict => Post end point for predictions
+
+---
+
 ## Project Structure
 
 ```
