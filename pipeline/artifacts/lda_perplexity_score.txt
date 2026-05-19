@@ -1,0 +1,1 @@
+LDA Model Perplexity: 5111.76257500974

@@ -1,0 +1,87 @@
+language:
+  multilingual: True
+
+logging:
+  path: logs/
+  training: training.log
+  application: application.log
+  level: INFO
+
+model:
+  lda_name: snapchat_topic_model
+  sentiment_name: snapchat_sentiment_model
+  save_path: model/
+
+artifacts:
+  save_path: artifacts/
+
+dataPath:
+  file: snapchat_reviews_translated_copy.csv
+  path: data/
+
+contentcolumn:
+  column_name: cleaned_content_translated
+
+comparisoncolumn:
+  column_name: score
+
+countvectorizerparams:
+  maxdf: 0.9
+  mindf: 5
+
+ldamodel:
+  numberoftopics: 19
+  learningmethod: batch
+
+topicmapping:
+  filepath: model/
+  filename: topic_labels.json
+
+robertamodel:
+  model: cardiffnlp/twitter-roberta-base-sentiment
+
+ldacustomstopwords:
+  - "app"
+  - "snapchat"
+  - "snap"
+  - "good"
+  - "great"
+  - "nice"
+  - "amazing"
+  - "best"
+  - "love"
+  - "really"
+  - "like"
+  - "get"
+  - "use"
+  - "using"
+  - "one"
+  - "even"
+  - "please"
+  - "time"
+  - "thing"
+  - "good app"
+  - "great app"
+  - "best app"
+  - "love app"
+  - "nice app"
+  - "really good"
+  - "really good app"
+  - "social medium app"
+  - "social medium platform"
+  - "also"
+  - "make"
+  - "want"
+  - "take"
+  - "new"
+  - "work"
+  - "problem"
+  - "fix"
+  - "people"
+  - "many"
+  - "see"
+  - "keep"
+  - "back"
+  - "would"
+  - "much"
+  - "still"

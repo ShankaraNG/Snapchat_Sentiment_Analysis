@@ -1,0 +1,192 @@
+2026-05-15 22:25:37,547 | Preprocessing | ERROR | Pipeline run has failed in cleaning: name 'text_list' is not defined
+2026-05-17 06:16:46,198 | Main Runner | INFO | Starting the Model building and Training Pipeline
+2026-05-17 06:16:46,199 | PipelineRunner | INFO | Starting pipeline run
+2026-05-17 06:16:46,199 | PipelineRunner | INFO | Loading data
+2026-05-17 06:16:46,201 | PipelineRunner | ERROR | Pipeline run has failed: 'data'
+2026-05-17 06:16:46,201 | Main Runner | ERROR | Pipeline failed with an error
+Traceback (most recent call last):
+  File "E:\PythonCertificates\Snapchat Sentiment Analysis\pipeline\ml_build\main.py", line 13, in main
+    raise Exception("Pipeline runner did not complete successfully")
+Exception: Pipeline runner did not complete successfully
+2026-05-17 06:18:02,452 | Main Runner | INFO | Starting the Model building and Training Pipeline
+2026-05-17 06:18:02,453 | PipelineRunner | INFO | Starting pipeline run
+2026-05-17 06:18:02,453 | PipelineRunner | INFO | Loading data
+2026-05-17 06:18:03,845 | PipelineRunner | INFO | Data loaded successfully
+2026-05-17 06:18:03,846 | PipelineRunner | INFO | Multilingual setting: False
+2026-05-17 06:18:03,846 | PipelineRunner | INFO | No translation needed using original text
+2026-05-17 06:18:03,848 | PipelineRunner | INFO | Scoring sentiment based on original labels
+2026-05-17 06:18:03,868 | PipelineRunner | INFO | Sentiment scoring completed
+2026-05-17 06:18:03,868 | PipelineRunner | INFO | Running Roberta sentiment analysis pipeline
+2026-05-17 06:18:03,868 | PipelineBuilder | INFO | Building Roberta sentiment analysis pipeline
+2026-05-17 06:18:03,868 | PipelineBuilder | INFO | Roberta sentiment analysis pipeline built successfully
+2026-05-17 06:18:03,869 | PipelineRunner | INFO | Training and saving Roberta sentiment pipeline
+2026-05-17 06:18:03,869 | Training | INFO | Starting sentiment pipeline training
+2026-05-17 09:08:33,240 | Training | INFO | Sentiment pipeline fitted successfully, calculating accuracy score and classification report
+2026-05-17 09:08:33,493 | Training | INFO | Sentiment Model Accuracy Score: 0.6714284996962134
+2026-05-17 09:08:33,496 | Training | INFO | Saved sentiment accuracy score to file
+2026-05-17 09:08:34,597 | Training | INFO | Saved sentiment classification report to file
+2026-05-17 09:08:36,441 | Training | INFO | Saved sentiment confusion matrix to file
+2026-05-17 09:08:36,449 | Training | INFO | Sentiment model saved successfully
+2026-05-17 09:08:36,450 | Training | INFO | Sentiment model training completed successfully
+2026-05-17 09:08:36,450 | PipelineRunner | INFO | Roberta sentiment pipeline trained and saved successfully
+2026-05-17 09:08:36,451 | PipelineRunner | INFO | Running LDA topic modeling pipeline
+2026-05-17 09:08:36,451 | PipelineRunner | INFO | LDA parameters - maxdf: 0.9, mindf: 5, number of topics: 19, learning method: batch
+2026-05-17 09:08:36,451 | PipelineRunner | INFO | Building LDA pipeline
+2026-05-17 09:08:36,452 | PipelineBuilder | INFO | Building LDA topic modeling pipeline
+2026-05-17 09:08:36,456 | PipelineBuilder | INFO | LDA pipeline built successfully
+2026-05-17 09:08:36,456 | PipelineRunner | INFO | LDA pipeline built successfully
+2026-05-17 09:08:36,456 | PipelineRunner | INFO | Training and saving LDA pipeline
+2026-05-17 09:08:36,458 | Training | INFO | Starting LDA model training
+2026-05-17 09:08:36,460 | Training | ERROR | Failed to train LDA model: 'float' object has no attribute 'split'
+2026-05-17 09:08:36,460 | PipelineRunner | ERROR | Pipeline run has failed: LDA pipeline failed during training and saving
+2026-05-17 09:08:37,324 | Main Runner | ERROR | Pipeline failed with an error
+Traceback (most recent call last):
+  File "E:\PythonCertificates\Snapchat Sentiment Analysis\pipeline\ml_build\main.py", line 13, in main
+    raise Exception("Pipeline runner did not complete successfully")
+Exception: Pipeline runner did not complete successfully
+2026-05-17 10:08:03,158 | Main Runner | INFO | Starting the Model building and Training Pipeline
+2026-05-17 10:08:03,158 | PipelineRunner | INFO | Starting pipeline run
+2026-05-17 10:08:03,158 | PipelineRunner | INFO | Loading data
+2026-05-17 10:08:04,528 | PipelineRunner | INFO | Data loaded successfully
+2026-05-17 10:08:04,528 | PipelineRunner | INFO | Multilingual setting: False
+2026-05-17 10:08:04,568 | PipelineRunner | INFO | No translation needed using original text
+2026-05-17 10:08:04,569 | PipelineRunner | INFO | Scoring sentiment based on original labels
+2026-05-17 10:08:04,588 | PipelineRunner | INFO | Sentiment scoring completed
+2026-05-17 10:08:04,590 | PipelineRunner | INFO | Running Roberta sentiment analysis pipeline
+2026-05-17 10:08:04,590 | PipelineBuilder | INFO | Building Roberta sentiment analysis pipeline
+2026-05-17 10:08:04,590 | PipelineBuilder | INFO | Roberta sentiment analysis pipeline built successfully
+2026-05-17 10:08:04,590 | PipelineRunner | INFO | Training and saving Roberta sentiment pipeline
+2026-05-17 10:08:04,591 | Training | INFO | Starting sentiment pipeline training
+2026-05-17 12:36:29,414 | Training | INFO | Sentiment pipeline fitted successfully, calculating accuracy score and classification report
+2026-05-17 12:36:29,649 | Training | INFO | Sentiment Model Accuracy Score: 0.6714318711336065
+2026-05-17 12:36:29,653 | Training | INFO | Saved sentiment accuracy score to file
+2026-05-17 12:36:31,274 | Training | INFO | Saved sentiment classification report to file
+2026-05-17 12:36:33,018 | Training | INFO | Saved sentiment confusion matrix to file
+2026-05-17 12:36:33,025 | Training | INFO | Sentiment model saved successfully
+2026-05-17 12:36:33,025 | Training | INFO | saving the sentiment data with predictions to file
+2026-05-17 12:36:35,568 | Training | INFO | Sentiment data with predictions saved successfully
+2026-05-17 12:36:35,569 | Training | INFO | Sentiment model training completed successfully
+2026-05-17 12:36:35,570 | PipelineRunner | INFO | Roberta sentiment pipeline trained and saved successfully
+2026-05-17 12:36:35,570 | PipelineRunner | INFO | Running LDA topic modeling pipeline
+2026-05-17 12:36:35,572 | PipelineRunner | INFO | LDA parameters - maxdf: 0.9, mindf: 5, number of topics: 19, learning method: batch
+2026-05-17 12:36:35,572 | PipelineRunner | INFO | Building LDA pipeline
+2026-05-17 12:36:35,574 | PipelineBuilder | INFO | Building LDA topic modeling pipeline
+2026-05-17 12:36:35,578 | PipelineBuilder | INFO | LDA pipeline built successfully
+2026-05-17 12:36:35,578 | PipelineRunner | INFO | LDA pipeline built successfully
+2026-05-17 12:36:35,616 | PipelineRunner | INFO | Training LDA pipeline
+2026-05-17 12:36:35,617 | Training | INFO | Starting LDA model training
+2026-05-17 12:36:40,758 | Training | INFO | Fitting LDA pipeline to the data
+2026-05-17 12:40:12,365 | Training | INFO | LDA pipeline fitted successfully, calculating perplexity and coherence scores
+2026-05-17 12:41:40,732 | Training | INFO | LDA Model Perplexity: 5111.76257500974
+2026-05-17 12:41:40,750 | Training | INFO | saving LDA model perplexity score to file
+2026-05-17 12:41:40,751 | Training | INFO | Calculating LDA model coherence score
+2026-05-17 19:31:25,018 | Main Runner | INFO | Starting the Model building and Training Pipeline
+2026-05-17 19:31:25,018 | PipelineRunner | INFO | Starting pipeline run
+2026-05-17 19:31:25,018 | PipelineRunner | INFO | Loading data
+2026-05-17 19:31:26,648 | PipelineRunner | INFO | Data loaded successfully
+2026-05-17 19:31:26,648 | PipelineRunner | INFO | Multilingual setting: False
+2026-05-17 19:31:26,698 | PipelineRunner | INFO | No translation needed using original text
+2026-05-17 19:31:26,699 | PipelineRunner | INFO | Scoring sentiment based on original labels
+2026-05-17 19:31:26,718 | PipelineRunner | INFO | Sentiment scoring completed
+2026-05-17 19:31:26,719 | PipelineRunner | INFO | Running Roberta sentiment analysis pipeline
+2026-05-17 19:31:26,719 | Sentiment PipelineBuilder | INFO | Building Roberta sentiment analysis pipeline
+2026-05-17 19:31:26,719 | Sentiment PipelineBuilder | INFO | Roberta sentiment analysis pipeline built successfully
+2026-05-17 19:31:26,720 | PipelineRunner | INFO | Training and saving Roberta sentiment pipeline
+2026-05-17 19:31:26,720 | Training | INFO | Starting sentiment pipeline training
+2026-05-17 21:55:18,226 | Training | INFO | Sentiment pipeline fitted successfully, calculating accuracy score and classification report
+2026-05-17 21:55:18,478 | Training | INFO | Sentiment Model Accuracy Score: 0.6714318711336065
+2026-05-17 21:55:18,487 | Training | INFO | Saved sentiment accuracy score to file
+2026-05-17 21:55:20,037 | Training | INFO | Saved sentiment classification report to file
+2026-05-17 21:55:22,076 | Training | INFO | Saved sentiment confusion matrix to file
+2026-05-17 21:55:22,082 | Training | INFO | Sentiment model saved successfully
+2026-05-17 21:55:22,082 | Training | INFO | saving the sentiment data with predictions to file
+2026-05-17 21:55:24,586 | Training | INFO | Sentiment data with predictions saved successfully
+2026-05-17 21:55:24,586 | Training | INFO | Sentiment model training completed successfully
+2026-05-17 21:55:26,318 | PipelineRunner | INFO | Roberta sentiment pipeline trained and saved successfully
+2026-05-17 21:55:26,319 | PipelineRunner | INFO | Running LDA topic modeling pipeline
+2026-05-17 21:55:26,319 | PipelineRunner | INFO | LDA parameters - maxdf: 0.9, mindf: 5, number of topics: 19, learning method: batch
+2026-05-17 21:55:26,319 | PipelineRunner | INFO | Building LDA pipeline
+2026-05-17 21:55:26,319 | LDA PipelineBuilder | INFO | Building LDA topic modeling pipeline
+2026-05-17 21:55:26,319 | LDA PipelineBuilder | INFO | LDA pipeline built successfully
+2026-05-17 21:55:26,319 | PipelineRunner | INFO | LDA pipeline built successfully
+2026-05-17 21:55:26,328 | PipelineRunner | INFO | Training LDA pipeline
+2026-05-17 21:55:26,329 | Training | INFO | Starting LDA model training
+2026-05-17 21:55:29,920 | Training | INFO | Fitting LDA pipeline to the data
+2026-05-17 21:59:00,801 | Training | INFO | LDA pipeline fitted successfully, calculating perplexity and coherence scores
+2026-05-17 22:00:27,849 | Training | INFO | LDA Model Perplexity: 5111.76257500974
+2026-05-17 22:00:27,850 | Training | INFO | saving LDA model perplexity score to file
+2026-05-17 22:00:27,850 | Training | INFO | Calculating LDA model coherence score
+2026-05-17 22:35:16,532 | Main Runner | INFO | Starting the Model building and Training Pipeline
+2026-05-17 22:35:16,532 | PipelineRunner | INFO | Starting pipeline run
+2026-05-17 22:35:16,532 | PipelineRunner | INFO | Loading data
+2026-05-17 22:35:17,872 | PipelineRunner | INFO | Data loaded successfully
+2026-05-17 22:35:17,872 | PipelineRunner | INFO | Multilingual setting: False
+2026-05-17 22:35:17,913 | PipelineRunner | INFO | No translation needed using original text
+2026-05-17 22:35:17,915 | PipelineRunner | INFO | Scoring sentiment based on original labels
+2026-05-17 22:35:17,933 | PipelineRunner | INFO | Sentiment scoring completed
+2026-05-17 22:35:17,933 | PipelineRunner | INFO | Running Roberta sentiment analysis pipeline
+2026-05-17 22:35:17,933 | Sentiment PipelineBuilder | INFO | Building Roberta sentiment analysis pipeline
+2026-05-17 22:35:17,934 | Sentiment PipelineBuilder | INFO | Roberta sentiment analysis pipeline built successfully
+2026-05-17 22:35:17,934 | PipelineRunner | INFO | Training and saving Roberta sentiment pipeline
+2026-05-17 22:35:17,934 | Training | INFO | Starting sentiment pipeline training
+2026-05-18 01:02:19,675 | Training | INFO | Sentiment pipeline fitted successfully, calculating accuracy score and classification report
+2026-05-18 01:02:19,870 | Training | INFO | Sentiment Model Accuracy Score: 0.6714318711336065
+2026-05-18 01:02:19,873 | Training | INFO | Saved sentiment accuracy score to file
+2026-05-18 01:02:21,454 | Training | INFO | Saved sentiment classification report to file
+2026-05-18 01:02:22,584 | Training | INFO | Saved sentiment confusion matrix to file
+2026-05-18 01:02:22,588 | Training | INFO | Sentiment model saved successfully
+2026-05-18 01:02:22,588 | Training | INFO | saving the sentiment data with predictions to file
+2026-05-18 01:02:25,162 | Training | INFO | Sentiment data with predictions saved successfully
+2026-05-18 01:02:25,163 | Training | INFO | Sentiment model training completed successfully
+2026-05-18 01:02:25,164 | PipelineRunner | INFO | Roberta sentiment pipeline trained and saved successfully
+2026-05-18 01:02:25,164 | PipelineRunner | INFO | RoBERTa unloaded, memory freed before LDA
+2026-05-18 01:02:25,272 | Sentiment PipelineBuilder | INFO | RoBERTa model unloaded from memory
+2026-05-18 01:02:26,615 | PipelineRunner | INFO | Running LDA topic modeling pipeline
+2026-05-18 01:02:26,615 | PipelineRunner | INFO | LDA parameters - maxdf: 0.9, mindf: 5, number of topics: 19, learning method: batch
+2026-05-18 01:02:26,615 | PipelineRunner | INFO | Building LDA pipeline
+2026-05-18 01:02:26,615 | LDA PipelineBuilder | INFO | Building LDA topic modeling pipeline
+2026-05-18 01:02:26,616 | LDA PipelineBuilder | INFO | LDA pipeline built successfully
+2026-05-18 01:02:26,616 | PipelineRunner | INFO | LDA pipeline built successfully
+2026-05-18 01:02:26,625 | PipelineRunner | INFO | Training LDA pipeline
+2026-05-18 01:02:26,625 | Training | INFO | Starting LDA model training
+2026-05-18 01:02:30,285 | Training | INFO | Fitting LDA pipeline to the data
+2026-05-18 01:06:04,499 | Training | INFO | LDA pipeline fitted successfully, calculating perplexity and coherence scores
+2026-05-18 01:07:31,593 | Training | INFO | LDA Model Perplexity: 5111.76257500974
+2026-05-18 01:07:31,594 | Training | INFO | saving LDA model perplexity score to file
+2026-05-18 01:07:31,595 | Training | INFO | Calculating LDA model coherence score
+2026-05-18 01:07:31,773 | Training | INFO | LDA Model Coherence Score: 0.5371609307181953
+2026-05-18 01:07:31,774 | Training | INFO | saved LDA model coherence score to file
+2026-05-18 01:07:31,799 | Training | INFO | Saved LDA topics to file
+2026-05-18 01:07:31,982 | Training | INFO | LDA model saved successfully
+2026-05-18 01:07:31,982 | Training | INFO | LDA model training completed successfully
+2026-05-18 01:07:32,081 | PipelineRunner | INFO | LDA pipeline trained and saved successfully
+2026-05-18 01:07:32,081 | PipelineRunner | INFO | Testing LDA pipeline with custom examples
+2026-05-18 01:07:32,081 | Testing | INFO | Loading LDA model for testing
+2026-05-18 01:07:32,198 | Testing | INFO | Testing LDA pipeline with custom examples
+2026-05-18 01:07:32,203 | Testing | INFO | LDA pipeline testing completed, saving results
+2026-05-18 01:07:32,204 | Testing | INFO | LDA pipeline testing results saved successfully
+2026-05-18 01:07:32,206 | PipelineRunner | INFO | LDA pipeline testing completed successfully
+2026-05-18 01:07:32,206 | PipelineRunner | INFO | Testing Sentiment pipeline with custom examples
+2026-05-18 01:07:32,206 | Testing | INFO | Loading Sentiment model for testing
+2026-05-18 01:07:33,304 | Testing | INFO | Sentiment pipeline testing completed, results saved
+2026-05-18 01:07:33,304 | PipelineRunner | INFO | Sentiment pipeline testing completed successfully
+2026-05-18 01:07:33,304 | PipelineRunner | INFO | Pipeline run completed successfully
+2026-05-18 01:07:33,396 | Main Runner | INFO | Model Training and TestingPipeline Ended
+2026-05-18 15:49:32,177 | Main | INFO | Loading models at startup
+2026-05-18 15:49:32,373 | Main | INFO | All models loaded successfully
+2026-05-18 15:52:38,093 | Main | INFO | Shutting down
+2026-05-18 15:52:50,350 | Main | INFO | Loading models at startup
+2026-05-18 15:52:50,446 | Main | INFO | All models loaded successfully
+2026-05-18 15:56:34,221 | Main | INFO | Shutting down
+2026-05-18 15:56:46,207 | Main | INFO | Loading models at startup
+2026-05-18 15:56:46,316 | Main | INFO | All models loaded successfully
+2026-05-18 15:56:56,723 | Main | INFO | Loading models at startup
+2026-05-18 15:56:56,862 | Main | INFO | All models loaded successfully
+2026-05-18 15:57:09,861 | Main | INFO | Loading models at startup
+2026-05-18 15:57:10,250 | Main | INFO | All models loaded successfully
+2026-05-18 15:57:20,440 | Main | INFO | Loading models at startup
+2026-05-18 15:57:20,557 | Main | INFO | All models loaded successfully
+2026-05-18 16:02:58,087 | Main | INFO | Shutting down
+2026-05-18 18:51:13,643 | Main | INFO | Loading models at startup
+2026-05-18 18:51:13,820 | Main | INFO | All models loaded successfully
+2026-05-18 19:00:07,761 | Main | INFO | Shutting down
